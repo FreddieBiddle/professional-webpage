@@ -22,7 +22,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: var(--dark-color);
 
 }
 
@@ -78,15 +78,37 @@ img {
     margin-bottom: 50px;
 }
 
-.hero .container {
+.hero#aboutme .container {
     background: url('../images/Kandinsky_two_in_one.jpg') no-repeat;
     background-size: contain;
     background-position: center bottom;
     height: 550px;
 }
 
+.hero#cvpage .container {
+    background: url('../images/Kandinsky_diagonal.jpg') no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    height: 550px;
+}
+
+.hero#contactpage .container {
+    background: url('../images/Kandinsky_untitiled.jpg') no-repeat;
+    background-size: contain;
+    background-position: center top;
+    height: 550px;
+}
+
 .hero .hero-content {
     width: 70%;
+}
+
+.hero .hero-content a:hover {
+    color: var(--light-color);
+}
+
+.hero#contactpage .hero-content a:hover {
+    color: #727272;
 }
 
 .hero .hero-text {
@@ -103,6 +125,7 @@ img {
 .faq {
     padding: 40px 0;
 }
+
 
 .faq-group {
     border-bottom: 1px solid #ccc;
@@ -131,6 +154,10 @@ img {
 .faq .faq-group .faq-group-body {
     display: none;
 } 
+
+.faq .faq-group .faq-group-body a:hover {
+    color: var(--primary-color);
+}
     
 .faq .faq-group .faq-group-body.open {
     display: block;
@@ -161,6 +188,7 @@ img {
 }
 
 
+
 /* Footer */
 .footer {
     padding: 40px 0;
@@ -186,7 +214,7 @@ img {
 .footer-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -195,13 +223,20 @@ img {
     margin: 20px 30px 30px 0;
 }
 
-.footer input[type='email'] {
+.footer a:hover {
+    color: var(--primary-color);
+}
+
+/* .footer input[type='email'] {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 20px 0;
 }
+*/
+
+
 
 /* Utility Classes */
 .container {
@@ -403,7 +438,7 @@ img {
     
 
     /* testimonial behaving w/ mobile (not applicable) */
-    .testimonials .testimonials-heading {
+    /*.testimonials .testimonials-heading {
         max-width: 100%;
         text-align: center;
     }
@@ -424,6 +459,7 @@ img {
     .footer .rooter-grid > div {
         text-align: center;
     }
+    */
 
 
     /* Text */
