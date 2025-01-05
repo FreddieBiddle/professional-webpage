@@ -85,12 +85,40 @@ img {
     height: 550px;
 }
 
+/* This is the only caption working at the moment... commenting out for now.
+.hero#aboutme .hero-text#caption-home {
+    vertical-align: bottom;
+    text-align: right;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-61%, -40%);
+    color: white;
+    font-size: 7px;
+    padding: 0%;
+  }
+*/
+
 .hero#cvpage .container {
     background: url('../images/Kandinsky_diagonal.jpg') no-repeat;
     background-size: contain;
     background-position: center bottom;
     height: 550px;
 }
+
+/* Thse doesn't work right now - not sure why...
+.hero#cvpage .hero-text#caption-cv {
+    display: block;
+    vertical-align: bottom;
+    text-align: right;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-60%, -30%);
+    color: white;
+    font-size: 7px;
+  }
+*/
 
 .hero#contactpage .container {
     background: url('../images/Kandinsky_untitiled.jpg') no-repeat;

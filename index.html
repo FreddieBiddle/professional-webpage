@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="myCSS/style.css">
     <link rel="shortcut icon" href="images/MH_icon.jpg" type="image/x-icon" />
 </head>
+html {
+    scroll-behavior: smooth;
+  }
 <body>
+    <h1>Smooth Scroll</h1>
     <div class="main-menu"></div>
     <nav class="navbar">
         <div class="container">
@@ -70,6 +74,13 @@
     </nav>
     <!-- Hero -->
     <section id="aboutme" class="hero">
+        <!-- These aren't working properly :-(
+        <div class="hero-image">
+            <div class="hero-text" id="caption-home">
+                <h1>Kandinsky - "Two In One"</h1>
+            </div>
+        </div>
+        -->
       <div class="container">
         <div class="hero-content">
             <h1 class="hero-heading text-xxl">
@@ -82,7 +93,7 @@
                 <br>
                 My research interests lie in Number Theory, and I'm particularly interested in <a href="https://en.wikipedia.org/wiki/Modular_form" target="_blank">Modular Forms</a>. 
                 I study their p-adic properties, divisibility of their Fourier coefficients, 
-                and their applications to certain combinatorial functions. Check out some of my papers below!
+                and their applications to certain combinatorial functions. Check out some of my <a href="#faq">papers below</a>!
             </p>
             <div class="hero-buttos">
                 <a href="https://math.unt.edu/" class="btn btn-dark" target="_blank">UNT Math</a>
@@ -94,7 +105,7 @@
     <!-- Video Section -->
     <!-- Testimonials -->
     <!-- FAQ -->
-    <section class="faq bg-light">
+    <section class="faq bg-light" id="faq">
         <div class="container-sm">
             <!-- <h3 class="text-xl text-center">
                 Some Useful Links
