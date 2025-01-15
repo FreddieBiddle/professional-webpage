@@ -505,10 +505,10 @@ img {
     */
 
     .hero#aboutme .container {
-        background: url('../images/Kandinsky_two_in_one\ copy.png') no-repeat;
+        background: url('../images/Kandinsky_white.jpg') no-repeat;
         background-size: 450px 300px;
         background-position: bottom;
-        height: 700px;
+        height: 730px;
     }
 
     .hero#contactpage .container {
