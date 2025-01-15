@@ -18,6 +18,8 @@ body {
     line-height: 1.5;
     background: #fff;
     overflow-x: hidden;
+
+    list-style-position: inside;
 }
 
 a {
@@ -29,6 +31,11 @@ a {
 ul {
     list-style: none;
 }
+
+li {
+    padding-left: 1em; 
+    text-indent: -0.8em;
+  }
 
 img {
     max-width: 100%;
@@ -57,6 +64,7 @@ img {
     display: block;
     font-weight: 600;
     transition: 0.5s;
+    text-align: center;
 }
 
 .navbar ul li a:hover {
@@ -67,9 +75,9 @@ img {
     margin-right: 10px;
 }
 
-.navbar ul li:last-child a {
+/*.navbar ul li:last-child a {
     margin-left: 10px;
-}
+}*/
 
 
 
@@ -127,6 +135,17 @@ img {
     height: 550px;
 }
 
+/*
+.hero#misc .container {
+    background: url('../images/Kandinsky_3_Rectangles.jpg') no-repeat;
+    background-size: contain;
+    background-position: center top;
+    height: 550px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+*/
+
 .hero .hero-content {
     width: 70%;
 }
@@ -138,6 +157,12 @@ img {
 .hero#contactpage .hero-content a:hover {
     color: #727272;
 }
+
+/*
+.hero#misc .hero-content a:hover {
+    color: #727272;
+}
+*/
 
 .hero .hero-text {
     width: 70%;
@@ -151,7 +176,7 @@ img {
 
 /* FAQ */
 .faq {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 
@@ -218,9 +243,11 @@ img {
 
 
 /* Footer */
+
 .footer {
-    padding: 40px 0;
+    padding: 20px 0;
 }
+
 
 .footer h4 {
     margin-bottom: 10px;
@@ -237,6 +264,7 @@ img {
 .footer i {
     font-size: 1.5rem;
     margin-right: 10px;
+    margin-left: 13px;
 }
 
 .footer-grid {
@@ -430,6 +458,7 @@ img {
 }
 
 
+
 /* Media Queries */
 @media (max-width: 960px) {
     .text-xxl {
@@ -453,15 +482,69 @@ img {
         height: 770px;
     }
 
-    .hero .hero-content, .hero .hero-text {
+    .hero#aboutme .hero-content, .hero#aboutme .hero-text {
         width: 100%;
         text-align: center;
+    }
+
+    .hero#cvpage .hero-content, .hero#cvpage .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero#contactpage .hero-content, .hero#contactpage .hero-text {
+        width: 100%;
+        text-align: center;
+    }
+    /*
+    .hero#misc .hero-content, .hero#misc .hero-text {
+        width: 100%;
+        text-align: center;
+        color: #000000;
+    }
+    */
+
+    .hero#aboutme .container {
+        background: url('../images/Kandinsky_two_in_one\ copy.png') no-repeat;
+        background-size: 450px 300px;
+        background-position: bottom;
+        height: 700px;
+    }
+
+    .hero#contactpage .container {
+        background: url('../images/Kandinsky_untitiled.jpg') no-repeat;
+        background-size: 450px 350px;
+        background-position: bottom;
+        height: 500px;
+        list-style-type: none;
+    }
+
+    .hero#cvpage .container {
+        background: url('../images/Kandinsky_diagonal.jpg') no-repeat;
+        background-size: 450px 370px;
+        background-position: bottom;
+        height: 450px;
+        list-style-type: none;
+    }
+
+    /*
+    .hero#misc .container {
+        background: url('../images/Kandinsky_white.jpg') no-repeat;
+        background-size: 450px 370px;
+        background-position: bottom;
+        height: 450px;
+        list-style-type: none;
+    }
+    */
+
+    .hero#aboutme .hero-content a:hover {
+        color: #8c8c8c;
     }
 
     .hero .hero-buttons .brn {
         margin-bottom: 10px;
         display: block;
-        width 100%
+        width: 100%;
     }
     
 
