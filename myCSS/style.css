@@ -532,6 +532,14 @@ img {
         list-style-type: none;
     }
 
+        .hero#portfoliopage .container {
+        background: url('../images/Kandinsky_Angular_Structure.jpg') no-repeat;
+        background-size: 450px 370px;
+        background-position: bottom;
+        height: 450px;
+        list-style-type: none;
+    }
+
     /*
     .hero#misc .container {
         background: url('../images/Kandinsky_white.jpg') no-repeat;
