@@ -496,6 +496,11 @@ img {
         width: 100%;
         text-align: center;
     }
+
+        .hero#portfoliopage .hero-content, .hero#portfoliopage .hero-text {
+        width: 100%;
+        text-align: center;
+    }
     /*
     .hero#misc .hero-content, .hero#misc .hero-text {
         width: 100%;
@@ -628,8 +633,3 @@ img {
     margin-bottom: 8px;
     line-height: 1.5;
 }
-
-    .hero#portfoliopage .hero-content, .hero#portfoliopage .hero-text {
-        width: 100%;
-        text-align: center;
-    }
