@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../myCSS/style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="myCSS/style.css">
+    <link rel="shortcut icon" href="images/MH_icon.jpg" type="image/x-icon" />
+</head>
+<body>
+    <div class="main-menu"></div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="portfolio.html">
+                    <a href="index.html">Michael Hanson</a>
+                </a>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="cv.html">CV</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Hamburger Button -->
+             <button class="hamburger-button">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+             </button>
+             <div class="mobile-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="cv.html">CV</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+             </div>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section id="portfoliopage" class="hero">
+      <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-heading text-xxl">
+                Learning Design Portfolio
+            </h1>
+            <p class="hero-text">
+                A look at two courses I've built from the ground up: designing curriculum,
+                materials, and assessments to fit the learners actually in the room.
+            </p>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Case Studies -->
+    <section class="portfolio bg-light">
+        <div class="container-sm">
+            <div class="portfolio-card">
+                <h3 class="text-lg">Real Analysis / Advanced Calculus</h3>
+                <p class="portfolio-meta">Built and taught at Texas Woman's University &middot; Online, asynchronous lecture + live weekly problem sessions</p>
+
+                <h4 class="text-sm">Learner population</h4>
+                <p>
+                    Upper-level undergraduate and graduate mathematics students making the transition
+                    from computational to proof-based mathematics &mdash; a shift that trips students up
+                    on reasoning style far more often than on content difficulty.
+                </p>
+
+                <h4 class="text-sm">What I built</h4>
+                <ul class="portfolio-list">
+                    <li>A full course built from scratch: sequencing, materials, and assessments, co-designed with a colleague</li>
+                    <li>Two recorded lectures released weekly, paired with a live Thursday problem session to work through proofs in real time</li>
+                    <li>Weekly ungraded homework sets designed to build proof-writing fluency through repetition, backed by weekly quizzes and two midterms to check retention</li>
+                    <li>Learning outcomes centered on non-formulaic problem solving and persuasive, precise mathematical writing &mdash; not just correct answers</li>
+                </ul>
+
+                <h4 class="text-sm">Design decisions</h4>
+                <p>
+                    I deliberately separated practice from assessment: homework stays low-stakes and ungraded
+                    so students engage with hard problems without fear of penalty, while quizzes and exams
+                    measure what actually stuck. The two lowest quiz grades are dropped to absorb the normal
+                    bumps of learning a new reasoning style without distorting the signal on mastery.
+                </p>
+            </div>
+
+            <div class="portfolio-card">
+                <h3 class="text-lg">Business Analysis (Business Math) &mdash; OER Curriculum Redesign</h3>
+                <p class="portfolio-meta">Texas Woman's University &middot; Internally grant-funded redesign, course coordinator</p>
+
+                <h4 class="text-sm">Learner population</h4>
+                <p>
+                    Business undergraduates with limited math backgrounds, taking a required course covering
+                    functions, matrices, linear programming, probability, and finance applications &mdash;
+                    material that only matters to most of these students once it's tied to a real business
+                    decision.
+                </p>
+
+                <h4 class="text-sm">What I built</h4>
+                <ul class="portfolio-list">
+                    <li>Led a full audit of the existing curriculum and required materials against the course's stated learning outcomes</li>
+                    <li>Won an internal grant to rebuild the course around open educational resources, cutting required-material costs for students</li>
+                    <li>Rebuilt materials and assessments to close gaps between what was being taught and what was being tested &mdash; e.g., aligning matrix and linear-programming instruction directly to the optimization problems students were expected to solve</li>
+                    <li>Coordinated the redesign across a 16-week course calendar spanning three unit exams and a comprehensive final</li>
+                </ul>
+
+                <h4 class="text-sm">Design decisions</h4>
+                <p>
+                    Because most students in this course won't go on to take more math, I prioritized
+                    material that ties directly to business decisions &mdash; cost/revenue/profit modeling,
+                    optimization, and compound interest &mdash; over abstract treatment of the same topics,
+                    while keeping the course's core learning outcomes intact.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+     <footer class="footer bg-black">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="mailto: mhanson3@twu.edu" target ="_blank">mhanson3@twu.edu</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/michael-hanson-447227295/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
